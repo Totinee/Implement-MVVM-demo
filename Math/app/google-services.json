@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521219940681",
+    "project_id": "math-app-subtraction",
+    "storage_bucket": "math-app-subtraction.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521219940681:android:fb47f2517051f02b147a98",
+        "android_client_info": {
+          "package_name": "com.example.math"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvXx5uPdI2YqsN61kjaXWmDMUzrqn218o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

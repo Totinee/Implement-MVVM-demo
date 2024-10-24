@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- RadioGroup to select between Integer and Double Subtraction -->
+    <RadioGroup
+        android:id="@+id/subtractionType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- RadioButton for Integer Subtraction -->
+        <RadioButton
+            android:id="@+id/intSubtraction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Integer Subtraction" />
+
+        <!-- RadioButton for Double Subtraction -->
+        <RadioButton
+            android:id="@+id/doubleSubtraction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Double Subtraction" />
+    </RadioGroup>
+
+    <!-- EditText for entering the first integer number -->
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter first integer"
+        android:inputType="number" />
+
+    <!-- EditText for entering the second integer number-->
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter second integer"
+        android:inputType="number" />
+
+    <!-- EditText for entering the first double number -->
+    <EditText
+        android:id="@+id/input1Double"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter first double number"
+        android:inputType="numberDecimal"
+        android:visibility="gone" />
+
+    <!-- EditText for entering the second double number -->
+    <EditText
+        android:id="@+id/input2Double"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter second double number"
+        android:inputType="numberDecimal"
+        android:visibility="gone" />
+
+    <!-- Button to calculate the result -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+    <!-- TextView to display the calculation result -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result will be displayed here" />
+</LinearLayout>
